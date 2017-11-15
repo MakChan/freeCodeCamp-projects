@@ -1,0 +1,79 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 50%;
+  min-height: 80%;
+  background-color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.quote {
+  margin-top: 15px;
+  padding: 15px;
+  max-width: 100%;
+  min-height: 350px;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+h5 {
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+}
+
+#twitter {
+  position: absolute;
+  margin-left: 10%;
+  bottom: 10%;
+}
+
+#change {
+  border-radius: 0px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.15), 0 4px 5px rgba(0,0,0,0.11);;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);  
+}
+
+
+
+#change:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.25), 0 5px 6px rgba(0,0,0,0.28);
+}
+
+.fa-twitter {
+  color: #5EAAE5;
+}
+
+.fa-twitter:hover {
+  color: #6a94b5;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 640px){
+  .container {
+    width: 80%; 
+    margin-top: 20%;
+    min-height: 450px;
+  }
+  h5 {
+    bottom: 25%;
+    right: 15%;
+    
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+}
