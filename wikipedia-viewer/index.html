@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Wikipedia Viewer">
+    <meta name="author" content="Mayank Chauhan">
+
+	<title>Wikipedia Viewer</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://code.getmdl.io/1.3.0/material.grey-indigo.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">		
+
+</head>
+
+
+<body>
+  
+
+	<div class="random">
+	  <a  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a Random Article.</a>   
+	</div>
+
+
+	<div class="search">
+
+	<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+	 mdl-textfield--floating-label">
+	  <label class="mdl-button mdl-js-button mdl-button--icon" id="button" for="query">
+	    <i class="material-icons">search</i>
+	  </label>
+	  <div class="mdl-textfield__expandable-holder">
+	    <input class="mdl-textfield__input" type="text" name="search" id="query">
+	    <label class="mdl-textfield__label" for="query">
+	      Enter search text below
+	    </label>
+	  </div>
+	</div>
+	</div>
+
+	<ul class="pages mdl-list">
+	</ul>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+</body>
+
+
+</html>
