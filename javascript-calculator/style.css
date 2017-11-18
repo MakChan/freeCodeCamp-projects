@@ -1,0 +1,105 @@
+body {
+	text-align: center;
+	justify-content: bottom;
+	font-family: "Open Sans";
+	font-size: 2rem;
+}
+
+.calc {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -200px 0 0 -350px
+}
+
+.screen {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.screen-cell {
+	text-align: right;
+	min-width: 630px;
+	min-height: 100px
+}
+
+.keys {
+  padding-left: 10px;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.mdl-grid {
+  padding: 2px;
+}
+
+.mdl-cell {
+  background-color: #f2f2f2;
+}
+
+.mdl-cell--4-col {
+  padding: 40px;
+  font-size: 36px;
+}
+
+.mdl-cell--1-col {
+  max-height: 50px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  width: 150px;
+  height: 150px;
+  margin: 3px;
+  padding-top: 15px;
+}
+
+.mdl-cell--1-col:hover {
+  background-color: #BDBDBD;
+  cursor: pointer
+}
+
+.mdl-cell--1-col:active {
+  background-color:#a0a0a0;
+}
+
+@media only screen and (max-width: 640px){
+
+  .calc {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -270px 0 0 -180px
+  }
+
+  .screen {
+    margin: 0 auto;
+    max-width: 350px;
+  }
+
+  .screen-cell {
+    min-width: 100px;
+  }
+
+  .keys {
+    padding-left: 5px;
+    margin: 0 auto;
+    max-width: 350px;
+  }
+
+  .mdl-grid {
+    padding: 2px;
+  }
+
+  .mdl-cell--4-col {
+    padding: 30px;
+    font-size: 30px;
+  }
+  .mdl-cell--1-col {
+    max-height: 50px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    width: 80px;
+    height: 100px;
+    margin: 3px;
+    padding-top: 15px;
+  }
+}
