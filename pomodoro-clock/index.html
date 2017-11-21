@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="Javascript Calculator" name="description">
+	<meta content="Mayank Chauhan" name="author">
+	<title>Pomodoro Clock</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://code.getmdl.io/1.3.0/material.grey-indigo.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="customize">
+		<div class="break">
+			Break Length
+			<div class="br-counter">
+				<span class="counters br-minus">-</span> <span class="br-time">5</span> <span class="counters br-plus">+</span>
+			</div>
+		</div>
+		<div class="session">
+			Session Length
+			<div class="sess-counter">
+				<span class="counters sess-minus">-</span> <span class="sess-time">25</span> <span class="counters sess-plus">+</span>
+			</div>
+		</div>
+	</div>
+	<div class="clock inactive session" id="clock">
+		<div class="text">
+			Session
+		</div>
+		<div class="time">
+			<span id="minutes">25</span> <span id="colon">:</span> <span id="seconds">00</span>
+		</div>
+	</div>
+	<div class="instructions">
+		<p>To start the countdown, click the clock.</p>
+		<p>Pause and resume by tapping the clock.</p>
+		<p>To reset the clock, choose the new time when the clock is paused and then click the clock.</p>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+	</script> 
+	<script src="script.js">
+	</script>
+</body>
+</html>
