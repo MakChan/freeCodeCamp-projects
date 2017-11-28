@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="Tic Tac Toe" name="description">
+	<meta content="Mayank Chauhan" name="author">
+	<title>Tic Tac Toe</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://code.getmdl.io/1.3.0/material.teal-indigo.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="player">
+		<div class="text">
+			Choose
+		</div>
+		<div class="choices">
+			<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect choice-button" id="O">O</button> <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect choice-button" id="X">X</button>
+		</div>
+	</div>
+	<div class="game">
+		<div class="header">
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--4-col">
+					<button class="mdl-button mdl-js-button mdl-button--raised reset-button">RESTART GAME</button>
+				</div>
+			</div>
+		</div>
+		<div class="buttons">
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--1-col" id='one' onclick="pressBox(this.id)"></div>
+				<div class="mdl-cell mdl-cell--1-col" id='two' onclick="pressBox(this.id)"></div>
+				<div class="mdl-cell mdl-cell--1-col" id='three' onclick="pressBox(this.id)"></div>
+			</div>
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--1-col" id='four' onclick="pressBox(this.id)"></div>
+				<div class="mdl-cell mdl-cell--1-col" id='five' onclick="pressBox(this.id)"></div>
+				<div class="mdl-cell mdl-cell--1-col" id='six' onclick="pressBox(this.id)"></div>
+			</div>
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--1-col" id='seven' onclick="pressBox(this.id)"></div>
+				<div class="mdl-cell mdl-cell--1-col" id='eight' onclick="pressBox(this.id)"></div>
+				<div class="mdl-cell mdl-cell--1-col" id='nine' onclick="pressBox(this.id)"></div>
+			</div>
+		</div>
+	</div>
+	<div class="winner">
+		<div class="header">
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--4-col">
+					<button class="mdl-button mdl-js-button mdl-button--raised reset-button">RESTART GAME</button>
+				</div>
+			</div>
+		</div>
+		<p class="winner-player"></p>
+		<p class="winner-text"></p>
+		<p class="draw-text"></p>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+	</script> 
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js">
+	</script> 
+	<script src="script.js">
+	</script>
+</body>
+</html>

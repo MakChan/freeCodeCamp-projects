@@ -21,3 +21,7 @@ A minimal calculator made using jQuery.
 ### Pomodoro Clock
 
 A simple pomodoro timer using Javascript and jQuery.
+
+### Tic Tac Toe
+
+Two-player Tic Tac Toe using Javascript and jQuery.

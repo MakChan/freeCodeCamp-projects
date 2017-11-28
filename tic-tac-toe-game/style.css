@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+}
+.player, .game, .winner {
+  height: 406px;
+  width: 326px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.player {
+  margin: -200px 0 0 -163px;
+  border: 3px #0DA192 solid;
+}
+.text {
+  padding: 100px;
+  font-size: 36px;
+}
+.choices button {
+  margin: 30px;
+}
+.game {
+  display: none;
+  margin: -200px 0 0 -159px
+}
+.mdl-grid {
+  padding: 0px;
+}
+.header {
+  margin: 0 auto 24px
+}
+.reset {
+  width: 100%;
+  color: #0DA192
+}
+.mdl-cell--4-col {
+  box-sizing: border-box;
+  width: 97%;
+  height: 50px;
+  margin: 3px;
+  padding-top: 15px;
+  color: #0DA192
+}
+.reset-button {
+  width: 100%;
+}
+.buttons {
+  margin: 0 auto;
+  background-color: #0DA192;
+  width: 310px;
+}
+.mdl-cell--1-col {
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  padding: 40px;
+  font-size: 3rem;
+}
+#one, #two, #four, #five {
+  margin: 0 5px 5px 0;
+}
+#three, #six {
+  margin: 0 0 5px 0;
+}
+#seven, #eight {
+  margin: 0 5px 0 0;
+}
+#nine {
+  margin: 0;
+}
+.winner {
+  display: none;
+  margin: -200px 0 0 -163px;
+  border: 3px #0DA192 solid;
+}
+.winner p {
+  font-weight: 900;
+  color: #545454
+}
+.winner-player {
+  font-size: 8rem;
+  line-height: 8rem;
+}
+.winner-text {
+  font-size: 3rem;
+}
+.draw-text {
+  font-size: 3rem;
+  padding-top: 100px;
+}
+@media only screen and (max-width: 640px) {
+  .player, .game, .winner {
+    width: 380px;
+    height: 450px;
+    top: 10%;
+    margin: 0 0 0 -193px;
+  }
+}
