@@ -1,6 +1,6 @@
 # freeCodeCamp-projects
 
-> Collection of projects made as a part of curriculum of FreeCodeCamp courses
+> Collection of projects made as a part of curriculum of FreeCodeCamp courses using Javascript.
 
 ### Random Quote Machine
 
@@ -25,3 +25,7 @@ A simple pomodoro timer using Javascript and jQuery.
 ### Tic Tac Toe
 
 Two-player Tic Tac Toe using Javascript and jQuery.
+
+### Twitch TV
+
+Makes AJAX requests to check whether channels are streaming or not using Twitch API.

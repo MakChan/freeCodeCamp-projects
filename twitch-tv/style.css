@@ -1,0 +1,52 @@
+body {
+  margin-top: 100px; 
+  background-color: #ece5e7;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.box {
+	margin: 0 auto;
+	min-width: 500px;
+}
+
+.mdl-card__title-text, .mdl-card__title {
+	display: inline;
+  	text-align: center;
+
+}
+
+.mdl-card__supporting-text {
+	width: 100%
+}
+
+.list-items {
+	display: inline-block;
+}
+
+.first-list-item {
+	width: 60%
+}
+
+a {
+	color: #101a4d
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 640px){
+	body {
+	  margin-top: 40px;
+	  font-size: 17px !important;
+	}
+
+	.box {
+		margin: 0 auto;
+		min-width: 350px;
+	}
+}
